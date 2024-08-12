@@ -1,0 +1,108 @@
+.loginPage {
+    background: url('Images/emp.png');
+    background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5)), url("Images/emp.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.loginForm {
+    background-color: rgba(1, 32, 93, 0.6);
+    color: white;
+}
+
+ul li :hover {
+    background-color: gray;
+}
+
+.employee_image {
+    width: 45px;
+    height: 45px;
+    border-radius: 20%;
+    border: 2px solid black;
+}
+
+.emp_det_image {
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    border: 8px double black;
+    transition: box-shadow,border 0.5s ease-out; /* Add transition for smoother effect */
+}
+
+.emp_det_image:hover {
+    box-shadow: 0 0 20px 5px rgba(24, 164, 6, 0.7); /* Add glowing effect on hover */
+    border: 4px solid red;
+}
+
+.logo {
+    margin-right: 10px; /* Adjust as needed */
+}
+
+.top-bar h4 {
+    padding-right: 275px;
+}
+
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    overflow: hidden; /* Ensure overflow is hidden to maintain rounded corners */
+    margin-bottom: 20px;
+}
+
+.employee-table th,
+.employee-table td {
+    padding: 12px;
+    text-align: left;
+    border: 4px solid black;
+}
+
+.employee-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.employee-table tbody tr:hover {
+    background-color: #f5f5f5;
+    border: 5px solid red;
+}
+
+.myclass {
+    background-color: rgb(212, 15, 15); /* Default cool red */
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    height: 35px;
+    width: 131px;
+    box-shadow: 4px 4px 0 rgb(223, 104, 104); /* Shadow color */
+    transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    font-weight: bold; /* Make text bold */
+}
+
+.myclass:hover {
+    background-color: rgb(238, 23, 23); /* Slightly brighter red on hover */
+}
+
+.myclass:active {
+    transform: translateX(4px) translateY(4px);
+    background-color: rgb(255, 0, 0); /* Full red on click */
+    box-shadow: 0 0 0 rgb(17, 25, 180); /* Change shadow color on click */
+}
+
+/* Add CSS for card styling */
+.custom-card {
+    border-radius: 10px;
+    border:10px double green;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: box-shadow,border 0.5s ease; /* Smooth transition for box-shadow */
+  }
+  
+  .custom-card:hover {
+    box-shadow: 10px 10px 10px green; /* Glow effect on hover */
+    border:6px solid red
+  }
+  
+  
