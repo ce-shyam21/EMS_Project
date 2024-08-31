@@ -1,2 +1,2 @@
 # Employee_Management_System
- MERN-STACK-PROJECT
+ PostgreSql + react+ vite + Express + Node
